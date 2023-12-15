@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+//test
 require("dotenv").config();
 const adminrouter = require("./routes/adminUserRoute");
 const categoryRouter = require("./routes/categoryRoute");
